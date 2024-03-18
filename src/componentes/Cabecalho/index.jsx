@@ -11,13 +11,10 @@ const HeaderEstilizado = styled.header`
 `
 
 const Cabecalho = () => {
-    return (
-        <HeaderEstilizado>
-            <img src="/Imagens/logo.png" alt="" />
-            <CampoTexto />
-        </HeaderEstilizado>
-       
-    )
+    return (<HeaderEstilizado>
+        <img src="/imagens/logo.png" alt="" />
+        <CampoTexto />
+    </HeaderEstilizado>)
 }
 
 export default Cabecalho
