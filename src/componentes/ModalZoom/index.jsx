@@ -2,6 +2,51 @@ import { styled } from "styled-components"
 import Imagem from "../Galeria/Imagem"
 import BotaoIcone from "../BotaoIcone"
 
+const ModalZoom = () => {
+    return (
+        <>
+            <dialog open>
+                <p>Exemplo do Mozilla</p>
+                <form method="dialog">
+                    <button type="submit">ok</button>
+                </form>
+            </dialog>
+        </>
+    )
+}
+
+export default ModalZoom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 const Overlay = styled.div`
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
@@ -48,3 +93,5 @@ const ModalZoom = ({ foto, aoFechar, aoAlternarFavorito }) => {
 }
 
 export default ModalZoom
+
+/**/

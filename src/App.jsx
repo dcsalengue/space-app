@@ -5,6 +5,8 @@ import BarraLateral from "./componentes/BarraLateral"
 import Banner from "./componentes/Banner"
 import bannerBackground from './assets/banner.png'
 import Galeria from "./componentes/Galeria"
+import ModalZoom from "./componentes/ModalZoom"
+
 
 import fotos from './fotos.json'
 import { useState } from "react"
@@ -50,6 +52,7 @@ const App = () => {
           </ConteudoGaleria>
         </MainContainer>
       </AppContainer>
+      <ModalZoom />
     </FundoGradiente>
   )
 }
