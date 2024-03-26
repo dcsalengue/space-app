@@ -49,13 +49,16 @@ const App = () => {
               texto="A galeria mais completa de fotos do espaço!"
               backgroundImage={bannerBackground}
             />
-            <Galeria 
-              aoFotoSelecionada={foto => setfotoSelecionada(foto)} 
-              fotos={fotosDaGaleria}/>
+            <Galeria
+              aoFotoSelecionada={foto => setfotoSelecionada(foto)}
+              fotos={fotosDaGaleria} />
           </ConteudoGaleria>
         </MainContainer>
       </AppContainer>
-      <ModalZoom foto={fotoSelecionada}/>
+      <ModalZoom
+        foto={fotoSelecionada}
+        aoFechar={() => setFotoSelecionada(null)}
+      />
     </FundoGradiente>
   )
 }
