@@ -36,7 +36,7 @@ const ConteudoGaleria = styled.section`
 
 const App = () => {
   const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos)
-  const [fotoSelecionada, setfotoSelecionada] = useState(null)
+  const [fotoSelecionada, setFotoSelecionada] = useState(null)
   return (
     <FundoGradiente>
       <EstilosGlobais />
@@ -50,7 +50,7 @@ const App = () => {
               backgroundImage={bannerBackground}
             />
             <Galeria
-              aoFotoSelecionada={foto => setfotoSelecionada(foto)}
+              aoFotoSelecionada={foto => setFotoSelecionada(foto)}
               fotos={fotosDaGaleria} />
           </ConteudoGaleria>
         </MainContainer>
