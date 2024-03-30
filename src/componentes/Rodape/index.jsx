@@ -1,3 +1,4 @@
+Javascript
 import { styled } from 'styled-components';
 
 const RodapeEstilizado = styled.footer`
